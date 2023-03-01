@@ -1,0 +1,143 @@
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.header-image {
+  max-width: 200px;
+  height: auto;
+  margin-left: auto;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+
+body {
+  /*  display: flex; */
+}
+
+.header {
+  padding-top: 1px;
+  background-color: rgb(30, 30, 61);
+  color: white;
+  padding-bottom: 30px;
+  padding-left: 100px;
+}
+
+.header-top-line {
+  display: flex;
+  align-items: top;
+  margin-bottom: 50px;
+}
+
+.header-logo {
+  font-size: 48px;
+  margin-right: 0;
+  font-weight: bolder;
+}
+
+.header-links {
+  display: flex;
+  font-size: 18px;
+  gap: 16px;
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+.header-center {
+  display: flex;
+  gap: 30px;
+  margin-left: 20px;
+}
+
+.header-sign {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.header-title {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.btn-signup {
+  font-size: 16px;
+  background-color: rgb(235, 205, 74);
+  text-align: center;
+  font-weight: bold;
+  border-radius: 6px;
+  max-width: 150px;
+  justify-self: center;
+  border: none;
+  padding: 5px;
+}
+
+.content-container {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 25px;
+}
+
+.content-title {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.content-images-row {
+  display: flex;
+  gap: 50px;
+}
+
+.content-image {
+  width: auto;
+  height: 100px;
+}
+
+.col-image-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-desc {
+}
+.content-quote-container {
+  background-color: rgb(222, 222, 238);
+  min-width: 300px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.content-quote {
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  font-size: 36px;
+  font-style: italic light;
+}
+
+.content-quote-author {
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  justify-content: right;
+  padding-right: 30px;
+}
